@@ -2,7 +2,7 @@
 _Name=News
 _Comment=Feed reader for GNOME
 Exec=gnome-news
-Icon=gnome-news
+Icon=org.gnome.News
 Terminal=false
 Type=Application
 Categories=Network;Feed;News;GNOME;GTK;

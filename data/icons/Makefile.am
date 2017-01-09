@@ -5,13 +5,13 @@ public_icons_themes =				\
 	$(NULL)
 
 public_icons =						\
-	hicolor_apps_16x16_gnome-news.png		\
-	hicolor_apps_22x22_gnome-news.png		\
-	hicolor_apps_24x24_gnome-news.png		\
-	hicolor_apps_32x32_gnome-news.png		\
-	hicolor_apps_48x48_gnome-news.png		\
-	hicolor_apps_256x256_gnome-news.png		\
-	hicolor_apps_symbolic_gnome-news-symbolic.svg	\
+	hicolor_apps_16x16_org.gnome.News.png		\
+	hicolor_apps_22x22_org.gnome.News.png		\
+	hicolor_apps_24x24_org.gnome.News.png		\
+	hicolor_apps_32x32_org.gnome.News.png		\
+	hicolor_apps_48x48_org.gnome.News.png		\
+	hicolor_apps_256x256_org.gnome.News.png		\
+	hicolor_apps_symbolic_org.gnome.News-symbolic.svg	\
 	$(NULL)
 
 noinst_DATA =					\
