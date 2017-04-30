@@ -1,0 +1,165 @@
+# Croatian translation for gnome-news.
+# Copyright (C) 2017 gnome-news's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-news package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-news master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-12 09:46+0000\n"
+"PO-Revision-Date: 2017-04-30 23:03+0200\n"
+"Language-Team: Croatian <hr@li.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Last-Translator: gogo <trebelnik2@gmail.com>\n"
+"X-Generator: Poedit 1.8.7.1\n"
+
+#: ../data/gtk/menus.ui.h:1
+msgid "About"
+msgstr "O programu"
+
+#: ../data/gtk/menus.ui.h:2
+msgid "Quit"
+msgstr "Zatvori"
+
+#. TRANSLATORS: the application name
+#: ../data/org.gnome.News.appdata.xml.in.h:2
+#: ../data/org.gnome.News.desktop.in.h:1 ../gnomenews/application.py:37
+#: ../gnomenews/toolbar.py:100 ../gnomenews/window.py:35
+msgid "News"
+msgstr "Novosti"
+
+#. TRANSLATORS: one-line description for the app
+#: ../data/org.gnome.News.appdata.xml.in.h:4
+msgid "Feed Reader"
+msgstr "Čitač RSS kanala"
+
+#. TRANSLATORS: AppData description marketing paragraph
+#: ../data/org.gnome.News.appdata.xml.in.h:6
+msgid "GNOME News can be used to read news."
+msgstr "GNOME Vijesti mogu se koristiti za čitanje vijesti."
+
+#: ../data/org.gnome.News.desktop.in.h:2
+msgid "Feed reader for GNOME"
+msgstr "Čitač RSS kanala za GNOME"
+
+#: ../data/org.gnome.News.gschema.xml.h:1
+msgid "Window size"
+msgstr "Veličina prozora"
+
+#: ../data/org.gnome.News.gschema.xml.h:2
+msgid "Window size (width and height)."
+msgstr "Veličina prozora (širina i visina)."
+
+#: ../data/org.gnome.News.gschema.xml.h:3
+msgid "Window position"
+msgstr "Položaj prozora"
+
+#: ../data/org.gnome.News.gschema.xml.h:4
+msgid "Window position (x and y)."
+msgstr "Položaj prozora (x-os i y-os)"
+
+#: ../data/org.gnome.News.gschema.xml.h:5
+msgid "Window maximized"
+msgstr "Prozor uvećan"
+
+#: ../data/org.gnome.News.gschema.xml.h:6
+msgid "Window maximized state."
+msgstr "Stanje uvećanog prozora"
+
+#: ../data/ui/empty-view.ui.h:1
+msgid "No Results Found"
+msgstr "Nema pronađenih rezultata"
+
+#: ../data/ui/empty-view.ui.h:2
+msgid "Try a different search"
+msgstr "Pokušaj drugačiju pretragu"
+
+#: ../data/ui/empty-view.ui.h:3
+msgid "No Starred Articles Found"
+msgstr "Nema pronađenih članaka označenih zvjezdicom"
+
+#: ../data/ui/empty-view.ui.h:4
+msgid "You can see your starred articles after marking them"
+msgstr "Možete vidjeti svoje članke označene zvjezdicom nakon što ih označite."
+
+#: ../data/ui/empty-view.ui.h:5
+msgid "No Feed Subscription Found"
+msgstr "NEma pronađenih pretplata kanala"
+
+#: ../data/ui/empty-view.ui.h:6
+msgid "You can subscribe to feeds using the \"+\" button"
+msgstr "Možete se pretplatiti na kanale koristeći \"+\" tipku"
+
+#: ../data/ui/headerbar.ui.h:1
+msgid "Add a new feed"
+msgstr "Dodaj novi kanal"
+
+#: ../data/ui/headerbar.ui.h:2
+msgid "Enter feed address to add"
+msgstr "Upiši adresu kanala za dodavanje"
+
+#: ../data/ui/headerbar.ui.h:3
+msgid "Add"
+msgstr "Dodaj"
+
+#: ../data/ui/headerbar.ui.h:4
+msgid "You are already subscribed to that feed!"
+msgstr "Već ste pretplaćeni na ovaj kanal!"
+
+#: ../data/ui/headerbar.ui.h:5
+msgid "Select All"
+msgstr "Odaberi sve"
+
+#: ../data/ui/headerbar.ui.h:6
+msgid "Select None"
+msgstr "Ukloni odabir"
+
+#: ../data/ui/headerbar.ui.h:7
+msgid "Click on items to select them"
+msgstr "Kliknite na stavku za odabir"
+
+#: ../data/ui/headerbar.ui.h:8
+msgid "Mark this article as starred"
+msgstr "Označi ovaj članak sa zvjezdicom"
+
+#: ../data/ui/headerbar.ui.h:9
+msgid "Search"
+msgstr "Pretraga"
+
+#: ../data/ui/headerbar.ui.h:10
+msgid "Select"
+msgstr "Odaberi"
+
+#: ../data/ui/headerbar.ui.h:11
+msgid "Back"
+msgstr "Natrag"
+
+#: ../gnomenews/toolbar.py:97
+#, python-format
+msgid "Searching for \"%s\""
+msgstr "Pretraživam \"%s\""
+
+#: ../gnomenews/view.py:86 ../gnomenews/view.py:99
+msgid "This article was already read"
+msgstr "Ovaj članak je već pročitan"
+
+#: ../gnomenews/view.py:174
+msgid "New"
+msgstr "Novi"
+
+#: ../gnomenews/view.py:191
+msgid "Feeds"
+msgstr "Kanali"
+
+#: ../gnomenews/view.py:268
+msgid "Unknown feed"
+msgstr "Nepoznati kanal"
+
+#: ../gnomenews/view.py:361
+msgid "Starred"
+msgstr "Sa zvjezdicom"
