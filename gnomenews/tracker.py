@@ -47,15 +47,15 @@ class Tracker(GObject.GObject):
     def get_post_sorted_by_date(self, unread=False, starred=False):
         query = """
         SELECT
-          nie:url(?msg) AS url
-          nie:title(?msg) AS title
-          nco:fullname(?creator) AS fullname
-          nie:url(?website) AS author_homepage
-          nco:emailAddress(?email) AS author_email
-          nie:contentCreated(?msg) AS date
-          nmo:htmlMessageContent(?msg) AS content
-          nmo:isRead(?msg) AS is_read
-          ?msg BOUND(?tag) as is_starred
+          nie:url(?msg) AS ?url
+          nie:title(?msg) AS ?title
+          nco:fullname(?creator) AS ?fullname
+          nie:url(?website) AS ?author_homepage
+          nco:emailAddress(?email) AS ?author_email
+          nie:contentCreated(?msg) AS ?date
+          nmo:htmlMessageContent(?msg) AS ?content
+          nmo:isRead(?msg) AS ?is_read
+          ?msg BOUND(?tag) AS ?is_starred
         WHERE
           { ?msg a mfo:FeedMessage """
 
@@ -86,10 +86,10 @@ class Tracker(GObject.GObject):
     def get_info_for_entry(self, url):
         query = """
         SELECT
-          nie:title(?msg) AS title
-          nco:fullname(?creator) AS fullname
-          nie:url(?website) AS author_homepage
-          nco:emailAddress(?email) AS author_email
+          nie:title(?msg) AS ?title
+          nco:fullname(?creator) AS ?fullname
+          nie:url(?website) AS ?author_homepage
+          nco:emailAddress(?email) AS ?author_email
         WHERE
           { ?msg a mfo:FeedMessage ;
                  nie:url <%s> .
@@ -222,15 +222,15 @@ class Tracker(GObject.GObject):
         """
         query = """
         SELECT
-          nie:url(?msg) AS url
-          nie:title(?msg) AS title
-          nco:fullname(?creator) AS fullname
-          nie:url(?website) AS author_homepage
-          nco:emailAddress(?email) AS author_email
-          nie:contentCreated(?msg) AS date
-          nmo:htmlMessageContent(?msg) AS content
-          nmo:isRead(?msg) AS is_read
-          ?msg BOUND(?tag) as is_starred
+          nie:url(?msg) AS ?url
+          nie:title(?msg) AS ?title
+          nco:fullname(?creator) AS ?fullname
+          nie:url(?website) AS ?author_homepage
+          nco:emailAddress(?email) AS ?author_email
+          nie:contentCreated(?msg) AS ?date
+          nmo:htmlMessageContent(?msg) AS ?content
+          nmo:isRead(?msg) AS ?is_read
+          ?msg BOUND(?tag) AS ?is_starred
           { ?msg a mfo:FeedMessage;
                  nmo:communicationChannel ?chan .
             ?chan nie:url "%s" .
@@ -262,8 +262,8 @@ class Tracker(GObject.GObject):
         """
         query = """
         SELECT
-          nie:url(?chan) AS url
-          nie:title(?chan) AS title
+          nie:url(?chan) AS ?url
+          nie:title(?chan) AS ?title
           { ?chan a mfo:FeedChannel"""
 
         if url is not None:
@@ -297,7 +297,7 @@ class Tracker(GObject.GObject):
           nie:contentCreated(?msg) AS ?date_created
           nmo:htmlMessageContent(?msg) AS ?content
           nmo:isRead(?msg) AS ?is_read
-          ?msg BOUND(?tag) as ?is_starred
+          ?msg BOUND(?tag) AS ?is_starred
           { ?msg a mfo:FeedMessage; """
 
         if channel:
