@@ -84,7 +84,7 @@ msgstr "No s'ha trobat cap article destacat"
 
 #: ../data/ui/empty-view.ui.h:4
 msgid "You can see your starred articles after marking them"
-msgstr "Podreu veure el articles destacats després de marcar-los"
+msgstr "Podreu veure els articles destacats després de marcar-los"
 
 #: ../data/ui/empty-view.ui.h:5
 msgid "No Feed Subscription Found"
