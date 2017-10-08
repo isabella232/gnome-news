@@ -34,6 +34,16 @@
     ],
     "modules": [
         {
+            "name": "libgrss",
+            "config-opts": [ "--disable-documentation"],
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://git.gnome.org/browse/libgrss"
+                }
+            ]
+        },
+        {
             "name": "tracker",
             "cleanup": [ "/bin", "/etc", "/libexec" ],
             "config-opts": [ "--disable-miner-apps", "--disable-static",
