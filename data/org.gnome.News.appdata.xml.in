@@ -14,14 +14,10 @@
       GNOME News can be used to read news.
     </_p>
   </description>
-  <screenshots>
-  </screenshots>
   <!--
           Validate with `appstream-util validate *.appdata.xml`
    Use `date -d now +%s` or `date -d 2010-01-32 +%s` to get the timestamp.
   -->
-  <releases>
-  </releases>
   <url type="homepage">https://wiki.gnome.org/Design/Apps/Potential/News</url>
   <url type="bugtracker">https://github.com/ignatenkobrain/gnome-news/issues</url>
   <update_contact>ignatenko@src.gnome.org</update_contact>
