@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-news master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-07 06:05+0000\n"
+"POT-Creation-Date: 2017-03-12 15:05+0000\n"
 "PO-Revision-Date: 2017-03-12 15:43+0100\n"
+"Last-Translator: Alan Mortensen <alanmortensen.am@gmail.com>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Last-Translator: Alan Mortensen <alanmortensen.am@gmail.com>\n"
 "X-Generator: Poedit 1.8.7.1\n"
 
 #: ../data/gtk/menus.ui.h:1
@@ -93,7 +93,7 @@ msgstr "Fandt ikke noget abonnement på nyhedsstrøm"
 
 #: ../data/ui/empty-view.ui.h:6
 msgid "You can subscribe to feeds using the \"+\" button"
-msgstr "Du kan abonnere på nyhedsstrømme med \"+\"-knappen"
+msgstr "Du kan abonnere på nyhedsstrømme med “+”-knappen"
 
 #: ../data/ui/headerbar.ui.h:1
 msgid "Add a new feed"
@@ -142,7 +142,7 @@ msgstr "Tilbage"
 #: ../gnomenews/toolbar.py:97
 #, python-format
 msgid "Searching for \"%s\""
-msgstr "Søger efter \"%s\""
+msgstr "Søger efter “%s”"
 
 #: ../gnomenews/view.py:86 ../gnomenews/view.py:99
 msgid "This article was already read"
