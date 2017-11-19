@@ -1,0 +1,164 @@
+# Norwegian Bokmål translation for gnome-news.
+# Copyright (C) 2017 gnome-news's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-news package.
+# Kjartan Maraas <kmaraas@gnome.org>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-news master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-11 17:52+0000\n"
+"PO-Revision-Date: 2017-11-19 17:29+0100\n"
+"Last-Translator: Kjartan Maraas <kmaraas@gnome.org>\n"
+"Language-Team: Norwegian Bokmål <nb@li.org>\n"
+"Language: nb\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../data/gtk/menus.ui.h:1
+msgid "About"
+msgstr "Om"
+
+#: ../data/gtk/menus.ui.h:2
+msgid "Quit"
+msgstr "Avslutt"
+
+#. TRANSLATORS: the application name
+#: ../data/org.gnome.News.appdata.xml.in.h:2
+#: ../data/org.gnome.News.desktop.in.h:1 ../gnomenews/application.py:37
+#: ../gnomenews/toolbar.py:100 ../gnomenews/window.py:35
+msgid "News"
+msgstr "Nyheter"
+
+#. TRANSLATORS: one-line description for the app
+#: ../data/org.gnome.News.appdata.xml.in.h:4
+msgid "Feed Reader"
+msgstr "Les nyhetsstrømmer"
+
+#. TRANSLATORS: AppData description marketing paragraph
+#: ../data/org.gnome.News.appdata.xml.in.h:6
+msgid "GNOME News can be used to read news."
+msgstr "GNOME nyheter kanbrukes til å lese nyheter."
+
+#: ../data/org.gnome.News.desktop.in.h:2
+msgid "Feed reader for GNOME"
+msgstr "Nyhetsstrømleser for GNOME"
+
+#: ../data/org.gnome.News.gschema.xml.h:1
+msgid "Window size"
+msgstr "Vindustørrelse"
+
+#: ../data/org.gnome.News.gschema.xml.h:2
+msgid "Window size (width and height)."
+msgstr ""
+
+#: ../data/org.gnome.News.gschema.xml.h:3
+msgid "Window position"
+msgstr "Vindusposisjon"
+
+#: ../data/org.gnome.News.gschema.xml.h:4
+msgid "Window position (x and y)."
+msgstr ""
+
+#: ../data/org.gnome.News.gschema.xml.h:5
+msgid "Window maximized"
+msgstr ""
+
+#: ../data/org.gnome.News.gschema.xml.h:6
+msgid "Window maximized state."
+msgstr ""
+
+#: ../data/ui/empty-view.ui.h:1
+msgid "No Results Found"
+msgstr "Fant ingen resultater"
+
+#: ../data/ui/empty-view.ui.h:2
+msgid "Try a different search"
+msgstr "Prøv et annet søk"
+
+#: ../data/ui/empty-view.ui.h:3
+msgid "No Starred Articles Found"
+msgstr "Fant ingen artikler med stjernemerking"
+
+#: ../data/ui/empty-view.ui.h:4
+msgid "You can see your starred articles after marking them"
+msgstr "Du kan se på stjernemerkede artikler etter at de er merket"
+
+#: ../data/ui/empty-view.ui.h:5
+msgid "No Feed Subscription Found"
+msgstr ""
+
+#: ../data/ui/empty-view.ui.h:6
+msgid "You can subscribe to feeds using the \"+\" button"
+msgstr ""
+
+#: ../data/ui/headerbar.ui.h:1
+msgid "Add a new feed"
+msgstr "Legg til en ny strøm"
+
+#: ../data/ui/headerbar.ui.h:2
+msgid "Enter feed address to add"
+msgstr ""
+
+#: ../data/ui/headerbar.ui.h:3
+msgid "Add"
+msgstr "Legg til"
+
+#: ../data/ui/headerbar.ui.h:4
+msgid "You are already subscribed to that feed!"
+msgstr "Du abonnerer allerede på den strømmen!"
+
+#: ../data/ui/headerbar.ui.h:5
+msgid "Select All"
+msgstr "Velg alle"
+
+#: ../data/ui/headerbar.ui.h:6
+msgid "Select None"
+msgstr "Velg ingen"
+
+#: ../data/ui/headerbar.ui.h:7
+msgid "Click on items to select them"
+msgstr "Klikk på oppføringer for å velge dem"
+
+#: ../data/ui/headerbar.ui.h:8
+msgid "Mark this article as starred"
+msgstr "Merk denne artikkelen med stjerne"
+
+#: ../data/ui/headerbar.ui.h:9
+msgid "Search"
+msgstr "Søk"
+
+#: ../data/ui/headerbar.ui.h:10
+msgid "Select"
+msgstr "Velg"
+
+#: ../data/ui/headerbar.ui.h:11
+msgid "Back"
+msgstr "Tilbake"
+
+#: ../gnomenews/toolbar.py:97
+#, python-format
+msgid "Searching for \"%s\""
+msgstr "Søker etter «%s»"
+
+#: ../gnomenews/view.py:86 ../gnomenews/view.py:99
+msgid "This article was already read"
+msgstr "Denne artikkelen er allerede lest"
+
+#: ../gnomenews/view.py:174
+msgid "New"
+msgstr "Ny"
+
+#: ../gnomenews/view.py:191
+msgid "Feeds"
+msgstr "Strømmer"
+
+#: ../gnomenews/view.py:268
+msgid "Unknown feed"
+msgstr "Ukjent strøm"
+
+#: ../gnomenews/view.py:361
+msgid "Starred"
+msgstr "Stjernemerket"
