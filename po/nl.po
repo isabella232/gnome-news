@@ -1,0 +1,166 @@
+# Dutch translation for gnome-news.
+# Copyright (C) 2016 gnome-news's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-news package.
+# Nathan Follens <nthn@unseen.is>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-news master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"news&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2016-06-17 19:11+0000\n"
+"PO-Revision-Date: 2016-06-22 20:35+0200\n"
+"Language-Team: Dutch <gnome-nl-list@gnome.org>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: Nathan Follens <nthn@unseen.is>\n"
+"X-Generator: Poedit 1.8.5\n"
+
+#: ../data/gtk/menus.ui.h:1
+msgid "About"
+msgstr "Info"
+
+#: ../data/gtk/menus.ui.h:2
+msgid "Quit"
+msgstr "Afsluiten"
+
+#. TRANSLATORS: the application name
+#: ../data/org.gnome.News.appdata.xml.in.h:2
+#: ../data/org.gnome.News.desktop.in.h:1 ../gnomenews/application.py:37
+#: ../gnomenews/toolbar.py:99 ../gnomenews/window.py:35
+msgid "News"
+msgstr "Nieuws"
+
+#. TRANSLATORS: one-line description for the app
+#: ../data/org.gnome.News.appdata.xml.in.h:4
+msgid "Feed Reader"
+msgstr "Feedreader"
+
+#. TRANSLATORS: AppData description marketing paragraph
+#: ../data/org.gnome.News.appdata.xml.in.h:6
+msgid "GNOME News can be used to read news."
+msgstr "Gnome Nieuws kan gebruikt worden om het nieuws te lezen."
+
+#: ../data/org.gnome.News.desktop.in.h:2
+msgid "Feed reader for GNOME"
+msgstr "Feedreader voor Gnome"
+
+#: ../data/org.gnome.News.gschema.xml.h:1
+msgid "Window size"
+msgstr "Venstergrootte"
+
+#: ../data/org.gnome.News.gschema.xml.h:2
+msgid "Window size (width and height)."
+msgstr "Venstergrootte (breedte en hoogte)."
+
+#: ../data/org.gnome.News.gschema.xml.h:3
+msgid "Window position"
+msgstr "Vensterpositie"
+
+#: ../data/org.gnome.News.gschema.xml.h:4
+msgid "Window position (x and y)."
+msgstr "Vensterpositie (x en y)."
+
+#: ../data/org.gnome.News.gschema.xml.h:5
+msgid "Window maximized"
+msgstr "Venster gemaximaliseerd"
+
+#: ../data/org.gnome.News.gschema.xml.h:6
+msgid "Window maximized state."
+msgstr "Venster in gemaximaliseerde staat."
+
+#: ../data/ui/empty-view.ui.h:1
+msgid "No Results Found"
+msgstr "Geen resultaten gevonden"
+
+#: ../data/ui/empty-view.ui.h:2
+msgid "Try a different search"
+msgstr "Probeer een andere zoekopdracht"
+
+#: ../data/ui/empty-view.ui.h:3
+msgid "No Starred Articles Found"
+msgstr "Geen artikels met ster gevonden"
+
+#: ../data/ui/empty-view.ui.h:4
+msgid "You can see your starred articles after marking them"
+msgstr "U kan uw artikels met ster bekijken na ze te markeren"
+
+#: ../data/ui/empty-view.ui.h:5
+msgid "No Feed Subscription Found"
+msgstr "Geen feedabonnement gevonden"
+
+#: ../data/ui/empty-view.ui.h:6
+msgid "You can subscribe to feeds using the \"+\" button"
+msgstr "U kan zich op feeds abonneren door op de “+”-knop te drukken"
+
+#: ../data/ui/headerbar.ui.h:1
+msgid "Add a new feed"
+msgstr "Een nieuwe feed toevoegen"
+
+#: ../data/ui/headerbar.ui.h:2
+msgid "Enter feed address to add"
+msgstr "Voer feedadres in om toe te voegen"
+
+#: ../data/ui/headerbar.ui.h:3
+msgid "Add"
+msgstr "Toevoegen"
+
+#: ../data/ui/headerbar.ui.h:4
+msgid "You are already subscribed to that feed!"
+msgstr "U bent reeds geabonneerd op die feed!"
+
+#: ../data/ui/headerbar.ui.h:5
+msgid "Select All"
+msgstr "Alles selecteren"
+
+#: ../data/ui/headerbar.ui.h:6
+msgid "Select None"
+msgstr "Niets selecteren"
+
+#: ../data/ui/headerbar.ui.h:7
+msgid "Click on items to select them"
+msgstr "Klik op items om ze te selecteren"
+
+#: ../data/ui/headerbar.ui.h:8
+msgid "Mark this article as starred"
+msgstr "Markeer dit artikel met ster"
+
+#: ../data/ui/headerbar.ui.h:9
+msgid "Search"
+msgstr "Zoeken"
+
+#: ../data/ui/headerbar.ui.h:10
+msgid "Select"
+msgstr "Selecteren"
+
+#: ../data/ui/headerbar.ui.h:11
+msgid "Back"
+msgstr "Terug"
+
+#: ../gnomenews/toolbar.py:96
+#, python-format
+msgid "Searching for \"%s\""
+msgstr "Zoeken naar “%s”"
+
+#: ../gnomenews/view.py:86 ../gnomenews/view.py:99
+msgid "This article was already read"
+msgstr "Dit artikel was reeds gelezen"
+
+#: ../gnomenews/view.py:174
+msgid "New"
+msgstr "Nieuw"
+
+#: ../gnomenews/view.py:191
+msgid "Feeds"
+msgstr "Feeds"
+
+#: ../gnomenews/view.py:268
+msgid "Unknown feed"
+msgstr "Onbekende feed"
+
+#: ../gnomenews/view.py:361
+msgid "Starred"
+msgstr "Met ster"
