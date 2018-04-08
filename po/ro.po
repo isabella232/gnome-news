@@ -1,0 +1,165 @@
+# Romanian translation for gnome-news.
+# Copyright (C) 2018 gnome-news's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-news package.
+# Floren <>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-news master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-13 20:08+0000\n"
+"PO-Revision-Date: 2018-04-06 00:56+0300\n"
+"Language-Team: Romanian <gnomero-list@lists.sourceforge.net>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);;\n"
+"Last-Translator: Florentina Mușat <florentina.musat.28@gmail.com>\n"
+"X-Generator: Poedit 2.0.6\n"
+
+#: ../data/gtk/menus.ui.h:1
+msgid "About"
+msgstr "Despre"
+
+#: ../data/gtk/menus.ui.h:2
+msgid "Quit"
+msgstr "Ieșire"
+
+#. TRANSLATORS: the application name
+#: ../data/org.gnome.News.appdata.xml.in.h:2
+#: ../data/org.gnome.News.desktop.in.h:1 ../gnomenews/application.py:37
+#: ../gnomenews/toolbar.py:100 ../gnomenews/window.py:35
+msgid "News"
+msgstr "Știri"
+
+#. TRANSLATORS: one-line description for the app
+#: ../data/org.gnome.News.appdata.xml.in.h:4
+msgid "Feed Reader"
+msgstr "Cititor de fluxuri"
+
+#. TRANSLATORS: AppData description marketing paragraph
+#: ../data/org.gnome.News.appdata.xml.in.h:6
+msgid "GNOME News can be used to read news."
+msgstr "Știri GNOME poate fi utilizat pentru citirea de știri."
+
+#: ../data/org.gnome.News.desktop.in.h:2
+msgid "Feed reader for GNOME"
+msgstr "Cititor de fluxuri pentru GNOME"
+
+#: ../data/org.gnome.News.gschema.xml.h:1
+msgid "Window size"
+msgstr "Dimensiune fereastră"
+
+#: ../data/org.gnome.News.gschema.xml.h:2
+msgid "Window size (width and height)."
+msgstr "Dimensiune fereastră (lățime și înălțime)."
+
+#: ../data/org.gnome.News.gschema.xml.h:3
+msgid "Window position"
+msgstr "Poziție fereastră"
+
+#: ../data/org.gnome.News.gschema.xml.h:4
+msgid "Window position (x and y)."
+msgstr "Poziție fereastră (x și y)."
+
+#: ../data/org.gnome.News.gschema.xml.h:5
+msgid "Window maximized"
+msgstr "Fereastră maximizată"
+
+#: ../data/org.gnome.News.gschema.xml.h:6
+msgid "Window maximized state."
+msgstr "Starea de maximizare a ferestrei."
+
+#: ../data/ui/empty-view.ui.h:1
+msgid "No Results Found"
+msgstr "Nu s-au găsit rezultate"
+
+#: ../data/ui/empty-view.ui.h:2
+msgid "Try a different search"
+msgstr "Încercați o altă căutare"
+
+#: ../data/ui/empty-view.ui.h:3
+msgid "No Starred Articles Found"
+msgstr "Nu s-au găsit articole cu stea"
+
+#: ../data/ui/empty-view.ui.h:4
+msgid "You can see your starred articles after marking them"
+msgstr "Puteți vedea articolele cu stea după ce le marcați"
+
+#: ../data/ui/empty-view.ui.h:5
+msgid "No Feed Subscription Found"
+msgstr "Nu s-a găsit un abonament de flux"
+
+#: ../data/ui/empty-view.ui.h:6
+msgid "You can subscribe to feeds using the \"+\" button"
+msgstr "Puteți să vă abonați la fluxuri utilizând butonul „+”"
+
+#: ../data/ui/headerbar.ui.h:1
+msgid "Add a new feed"
+msgstr "Adaugă un flux nou"
+
+#: ../data/ui/headerbar.ui.h:2
+msgid "Enter feed address to add"
+msgstr "Introduceți adresa de flux de adăugat"
+
+#: ../data/ui/headerbar.ui.h:3
+msgid "Add"
+msgstr "Adaugă"
+
+#: ../data/ui/headerbar.ui.h:4
+msgid "You are already subscribed to that feed!"
+msgstr "Sunteți abonat deja la acel flux!"
+
+#: ../data/ui/headerbar.ui.h:5
+msgid "Select All"
+msgstr "Selectează toate"
+
+#: ../data/ui/headerbar.ui.h:6
+msgid "Select None"
+msgstr "Nu selecta nimic"
+
+#: ../data/ui/headerbar.ui.h:7
+msgid "Click on items to select them"
+msgstr "Clic pe elemente pentru a le selecta"
+
+#: ../data/ui/headerbar.ui.h:8
+msgid "Mark this article as starred"
+msgstr "Marchează acest articol ca fiind cu stea"
+
+#: ../data/ui/headerbar.ui.h:9
+msgid "Search"
+msgstr "Caută"
+
+#: ../data/ui/headerbar.ui.h:10
+msgid "Select"
+msgstr "Selectează"
+
+#: ../data/ui/headerbar.ui.h:11
+msgid "Back"
+msgstr "Înapoi"
+
+#: ../gnomenews/toolbar.py:97
+#, python-format
+msgid "Searching for \"%s\""
+msgstr "Se caută după „%s”"
+
+#: ../gnomenews/view.py:86 ../gnomenews/view.py:99
+msgid "This article was already read"
+msgstr "Acest articol a fost citit deja"
+
+#: ../gnomenews/view.py:174
+msgid "New"
+msgstr "Nou"
+
+#: ../gnomenews/view.py:191
+msgid "Feeds"
+msgstr "Fluxuri"
+
+#: ../gnomenews/view.py:268
+msgid "Unknown feed"
+msgstr "Flux necunoscut"
+
+#: ../gnomenews/view.py:361
+msgid "Starred"
+msgstr "Cu stea"
