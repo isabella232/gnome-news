@@ -41,7 +41,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "https://git.gnome.org/browse/libgrss"
+                    "url": "https://gitlab.gnome.org/GNOME/libgrss.git"
                 }
             ]
         },
@@ -56,7 +56,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "https://git.gnome.org/browse/tracker"
+                    "url": "https://gitlab.gnome.org/GNOME/tracker.git"
                 }
             ]
         },
@@ -65,7 +65,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "https://git.gnome.org/browse/gnome-news"
+                    "url": "https://gitlab.gnome.org/GNOME/gnome-news.git"
                 }
             ]
         }
