@@ -15,6 +15,16 @@
 
 from gi.repository import Gtk, Gio
 
+AUTHORS = [
+    "Felipe Borges",
+    "Michael Catanzaro",
+    "Carlos Garnacho",
+    "Igor Gnatenko",
+    "Patrick Grififis",
+    "Yosef Or Boczko",
+    "Vadim Rutkovsky",
+]
+
 
 class AboutDialog(Gtk.AboutDialog):
     def __init__(self, parent):
@@ -23,7 +33,7 @@ class AboutDialog(Gtk.AboutDialog):
         self.set_modal(True)
         self.set_transient_for(parent)
         self.set_artists(self._read_file("ARTISTS"))
-        self.set_authors(self._read_file("AUTHORS"))
+        self.set_authors(AUTHORS)
         self.set_copyright("Copyright © 2015 GNOME Foundation")
         self.set_license_type(Gtk.License.GPL_3_0)
         self.set_version(self._read_file("VERSION")[0])
