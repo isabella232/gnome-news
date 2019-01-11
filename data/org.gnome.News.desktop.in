@@ -1,6 +1,6 @@
 [Desktop Entry]
-_Name=News
-_Comment=Feed reader for GNOME
+Name=News
+Comment=Feed reader for GNOME
 Exec=gnome-news
 Icon=org.gnome.News
 Terminal=false
