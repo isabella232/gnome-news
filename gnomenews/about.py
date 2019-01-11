@@ -13,7 +13,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-from gi.repository import Gtk, Gio
+from gi.repository import Gtk
 
 AUTHORS = [
     "Felipe Borges",
@@ -31,7 +31,7 @@ ARTISTS = [
 
 
 class AboutDialog(Gtk.AboutDialog):
-    def __init__(self, parent):
+    def __init__(self, parent, version):
         Gtk.AboutDialog.__init__(self)
         self.parent = parent
         self.set_modal(True)
@@ -40,14 +40,6 @@ class AboutDialog(Gtk.AboutDialog):
         self.set_authors(AUTHORS)
         self.set_copyright("Copyright © 2015 GNOME Foundation")
         self.set_license_type(Gtk.License.GPL_3_0)
-        self.set_version(self._read_file("VERSION")[0])
+        self.set_version(version)
         self.set_website("https://wiki.gnome.org/Design/Apps/Potential/News")
         self.set_logo_icon_name("gnome-news")
-
-    @staticmethod
-    def _read_file(fname):
-        f = Gio.File.new_for_uri("resource:///org/gnome/News/%s" % fname)
-        lines = f.load_contents(None)[1].decode().split("\n")
-        # Drop lines which empty or starts with '#'
-        lines_filtered = list(filter(lambda k: not k.startswith("#"), filter(None, lines)))
-        return lines_filtered

@@ -85,7 +85,7 @@ if __name__ == "__main__":
 
     from gnomenews.application import Application
 
-    app = Application()
+    app = Application("@version@")
     signal.signal(signal.SIGINT, signal.SIG_DFL)
     exit_status = app.run(sys.argv)
     sys.exit(exit_status)

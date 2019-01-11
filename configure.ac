@@ -30,7 +30,6 @@ AX_REQUIRE_DEFINED([APPSTREAM_XML])
 APPSTREAM_XML
 
 AC_CONFIG_FILES([
-  VERSION
   Makefile
   data/Makefile
   data/icons/Makefile

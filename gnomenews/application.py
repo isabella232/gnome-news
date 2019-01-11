@@ -30,13 +30,15 @@ import os.path
 
 class Application(Gtk.Application):
     @log
-    def __init__(self):
+    def __init__(self, version):
         Gtk.Application.__init__(self,
                                  application_id='org.gnome.News',
                                  flags=Gio.ApplicationFlags.FLAGS_NONE)
         GLib.set_application_name(_("News"))
         GLib.set_prgname('gnome-news')
         self.settings = Gio.Settings.new('org.gnome.News')
+
+        self._version = version
 
         cssProviderFile = Gio.File.new_for_uri('resource:///org/gnome/News/theme/Adwaita.css')
         cssProvider = Gtk.CssProvider()
@@ -80,7 +82,7 @@ class Application(Gtk.Application):
             self._about_dialog = None
 
         if not self._about_dialog:
-            self._about_dialog = AboutDialog(self._window)
+            self._about_dialog = AboutDialog(self._window, self._version)
 
         self._about_dialog.connect("destroy", on_destroy)
         self._about_dialog.present()

@@ -4,7 +4,6 @@ bin_SCRIPTS = gnome-news
 
 EXTRA_DIST = \
 	gnome-news.in \
-	VERSION.in \
 	$(NULL)
 
 CLEANFILES = \
@@ -30,7 +29,6 @@ GITIGNOREFILES = \
 	install-sh \
 	missing \
 	py-compile \
-	VERSION \
 	gnomenews/__pycache__ \
 	$(NULL)
 
@@ -47,7 +45,7 @@ gnome-news: gnome-news.in Makefile
 		-e s!\@pythondir\@!$(pythondir)!	\
 		-e s!\@pyexecdir\@!$(pyexecdir)!	\
 		-e s!\@PACKAGE\@!$(PACKAGE)!		\
-		-e s!\@VERSION\@!$(VERSION)!		\
+		-e s!\@version\@!$(VERSION)!		\
 		< $< > $@
 	chmod a+x $@
 
