@@ -25,6 +25,10 @@ AUTHORS = [
     "Vadim Rutkovsky",
 ]
 
+ARTISTS = [
+    "Allan Day"
+]
+
 
 class AboutDialog(Gtk.AboutDialog):
     def __init__(self, parent):
@@ -32,7 +36,7 @@ class AboutDialog(Gtk.AboutDialog):
         self.parent = parent
         self.set_modal(True)
         self.set_transient_for(parent)
-        self.set_artists(self._read_file("ARTISTS"))
+        self.set_artists(ARTISTS)
         self.set_authors(AUTHORS)
         self.set_copyright("Copyright © 2015 GNOME Foundation")
         self.set_license_type(Gtk.License.GPL_3_0)
