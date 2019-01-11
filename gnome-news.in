@@ -31,14 +31,14 @@ from gi.repository import Gio
 import gnomenews
 
 localedir = "@localedir@"
+pkgdatadir = "@pkgdatadir@"
+
 srcdir = os.path.abspath(os.path.join(os.path.dirname(gnomenews.__file__), ".."))
 if os.path.exists(os.path.join(srcdir, "gnome-news.doap")):
     print("Running from source tree, using local files")
-    pkgdatadir = os.path.join(srcdir, "data")
     if not os.environ.get("GSETTINGS_SCHEMA_DIR"):
         os.environ["GSETTINGS_SCHEMA_DIR"] = pkgdatadir
-else:
-    pkgdatadir = "@pkgdatadir@"
+    os.environ["XDG_DATA_DIRS"] = '@schemasdir@:' + os.environ.get("XDG_DATA_DIRS", "")
 
 def install_excepthook():
     """ Make sure we exit when an unhandled exception occurs. """
@@ -53,6 +53,7 @@ def install_excepthook():
     sys.excepthook = new_hook
 
 if __name__ == "__main__":
+
     install_excepthook()
 
     parser = argparse.ArgumentParser()
