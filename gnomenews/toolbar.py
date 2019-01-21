@@ -77,12 +77,6 @@ class Toolbar(GObject.GObject):
         self._starred_button.connect('clicked', self._toggle_starred)
         self.starred = False
 
-        # Primary menu
-        self._ui.add_from_resource('/org/gnome/News/gtk/menus.ui')
-        self._primary_menu_model = self._ui.get_object('primary-menu')
-        self._primary_menu_button = self._ui.get_object('primary-menu-button')
-        self._primary_menu_button.set_menu_model(self._primary_menu_model)
-
         self.set_state(ToolbarState.MAIN)
 
         self._stack_switcher.show()
