@@ -77,6 +77,12 @@ class Toolbar(GObject.GObject):
         self._starred_button.connect('clicked', self._toggle_starred)
         self.starred = False
 
+        # Primary menu
+        self._ui.add_from_resource('/org/gnome/News/gtk/menus.ui')
+        self._primary_menu = self._ui.get_object('primary-menu')
+        self._primary_menu_button = self._ui.get_object('primary-menu-button')
+        self._primary_menu_button.set_menu_model(self._primary_menu)
+
         self.set_state(ToolbarState.MAIN)
 
         self._stack_switcher.show()
@@ -144,6 +150,7 @@ class Toolbar(GObject.GObject):
         self._back_button.set_visible(self._state == ToolbarState.CHILD_VIEW)
         self._search_button.set_visible(self._state != ToolbarState.CHILD_VIEW)
         self._starred_button.set_visible(self._state == ToolbarState.CHILD_VIEW)
+        self._primary_menu_button.set_visible(self._state != ToolbarState.CHILD_VIEW)
         self.add_toggle_button.set_visible(self._state != ToolbarState.CHILD_VIEW)
 
     @log

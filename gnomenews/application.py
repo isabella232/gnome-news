@@ -68,6 +68,8 @@ class Application(Gtk.Application):
             action.connect("activate", getattr(self, action_name))
             self.add_action(action)
 
+        self.set_accels_for_action("app.quit", ["<Primary>q"])
+
         Gtk.Application.do_startup(self)
 
     @log
