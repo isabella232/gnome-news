@@ -161,7 +161,7 @@
       <object class="GtkLabel">
         <property name="visible">True</property>
         <property name="can_focus">False</property>
-        <property name="label" translatable="yes">You can subscribe to feeds using the "+" button</property>
+        <property name="label" translatable="yes">You can subscribe to feeds using the “+” button</property>
         <style>
           <class name="dim-label"/>
         </style>
