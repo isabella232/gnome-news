@@ -1,15 +1,15 @@
 # Polish translation for gnome-news.
-# Copyright © 2015-2016 the gnome-news authors.
+# Copyright © 2015-2019 the gnome-news authors.
 # This file is distributed under the same license as the gnome-news package.
-# Piotr Drąg <piotrdrag@gmail.com>, 2015-2016.
-# Aviary.pl <community-poland@mozilla.org>, 2015-2016.
+# Piotr Drąg <piotrdrag@gmail.com>, 2015-2019.
+# Aviary.pl <community-poland@mozilla.org>, 2015-2019.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-news\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-20 16:32+0200\n"
-"PO-Revision-Date: 2016-08-20 16:33+0200\n"
+"POT-Creation-Date: 2019-01-22 19:20+0100\n"
+"PO-Revision-Date: 2019-01-22 19:21+0100\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -20,19 +20,15 @@ msgstr ""
 "|| n%100>=20) ? 1 : 2);\n"
 
 #: ../data/gtk/menus.ui.h:1
-msgid "About"
+msgid "About News"
 msgstr "O programie"
-
-#: ../data/gtk/menus.ui.h:2
-msgid "Quit"
-msgstr "Zakończ"
 
 #. TRANSLATORS: the application name
 #: ../data/org.gnome.News.appdata.xml.in.h:2
 #: ../data/org.gnome.News.desktop.in.h:1 ../gnomenews/application.py:37
-#: ../gnomenews/toolbar.py:99 ../gnomenews/window.py:35
+#: ../gnomenews/toolbar.py:106 ../gnomenews/window.py:35
 msgid "News"
-msgstr "Wiadomości"
+msgstr "Aktualności"
 
 #. TRANSLATORS: one-line description for the app
 #: ../data/org.gnome.News.appdata.xml.in.h:4
@@ -42,7 +38,7 @@ msgstr "Czytnik kanałów"
 #. TRANSLATORS: AppData description marketing paragraph
 #: ../data/org.gnome.News.appdata.xml.in.h:6
 msgid "GNOME News can be used to read news."
-msgstr "Program do czytania wiadomości."
+msgstr "Program do czytania aktualności."
 
 #: ../data/org.gnome.News.desktop.in.h:2
 msgid "Feed reader for GNOME"
@@ -86,14 +82,14 @@ msgstr "Brak ulubionych artykułów"
 
 #: ../data/ui/empty-view.ui.h:4
 msgid "You can see your starred articles after marking them"
-msgstr "Można wyświetlać ulubione artykuły po ich dodaniu"
+msgstr "Ulubione artykuły będą tutaj widoczne po ich dodaniu"
 
 #: ../data/ui/empty-view.ui.h:5
 msgid "No Feed Subscription Found"
 msgstr "Brak subskrypcji kanałów"
 
 #: ../data/ui/empty-view.ui.h:6
-msgid "You can subscribe to feeds using the \"+\" button"
+msgid "You can subscribe to feeds using the “+” button"
 msgstr "Można subskrybować kanały za pomocą przycisku „+”"
 
 #: ../data/ui/headerbar.ui.h:1
@@ -125,24 +121,28 @@ msgid "Click on items to select them"
 msgstr "Kliknięcie elementów zaznacza je"
 
 #: ../data/ui/headerbar.ui.h:8
+msgid "Menu"
+msgstr "Menu"
+
+#: ../data/ui/headerbar.ui.h:9
 msgid "Mark this article as starred"
 msgstr "Dodaje ten artykuł do ulubionych"
 
-#: ../data/ui/headerbar.ui.h:9
+#: ../data/ui/headerbar.ui.h:10
 msgid "Search"
 msgstr "Wyszukuje"
 
-#: ../data/ui/headerbar.ui.h:10
+#: ../data/ui/headerbar.ui.h:11
 msgid "Select"
 msgstr "Zaznacza"
 
-#: ../data/ui/headerbar.ui.h:11
+#: ../data/ui/headerbar.ui.h:12
 msgid "Back"
 msgstr "Wstecz"
 
-#: ../gnomenews/toolbar.py:96
+#: ../gnomenews/toolbar.py:103
 #, python-format
-msgid "Searching for \"%s\""
+msgid "Searching for “%s”"
 msgstr "Wyszukiwanie „%s”"
 
 #: ../gnomenews/view.py:86 ../gnomenews/view.py:99
