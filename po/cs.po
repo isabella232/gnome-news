@@ -1,17 +1,16 @@
 # Czech translation for gnome-news.
 # Copyright (C) 2015 gnome-news's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-news package.
-# Marek Černocký <marek@manet.cz>, 2015, 2016.
+# Marek Černocký <marek@manet.cz>, 2015, 2016, 2019.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-news master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
-"news&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2016-03-08 14:37+0000\n"
-"PO-Revision-Date: 2016-03-14 03:30+0100\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-news/issues\n"
+"POT-Creation-Date: 2019-01-22 18:20+0000\n"
+"PO-Revision-Date: 2019-01-29 14:36+0100\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
-"Language-Team: Czech <gnome-cs-list@gnome.org>\n"
+"Language-Team: čeština <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,17 +19,13 @@ msgstr ""
 "X-Generator: Gtranslator 2.91.7\n"
 
 #: ../data/gtk/menus.ui.h:1
-msgid "About"
-msgstr "O aplikaci"
-
-#: ../data/gtk/menus.ui.h:2
-msgid "Quit"
-msgstr "Ukončit"
+msgid "About News"
+msgstr "O aplikaci Zpravodajství"
 
 #. TRANSLATORS: the application name
 #: ../data/org.gnome.News.appdata.xml.in.h:2
-#: ../data/org.gnome.News.desktop.in.h:1 ../gnomenews/application.py:36
-#: ../gnomenews/toolbar.py:99 ../gnomenews/window.py:35
+#: ../data/org.gnome.News.desktop.in.h:1 ../gnomenews/application.py:37
+#: ../gnomenews/toolbar.py:106 ../gnomenews/window.py:35
 msgid "News"
 msgstr "Zpravodajství"
 
@@ -93,7 +88,7 @@ msgid "No Feed Subscription Found"
 msgstr "Nebyl nalezen žádný přihlášený odběr"
 
 #: ../data/ui/empty-view.ui.h:6
-msgid "You can subscribe to feeds using the \"+\" button"
+msgid "You can subscribe to feeds using the “+” button"
 msgstr "K odběru kanálů se můžete přihlásit tlačítkem „+“"
 
 #: ../data/ui/headerbar.ui.h:1
@@ -125,24 +120,28 @@ msgid "Click on items to select them"
 msgstr "Vyberte položky klikáním"
 
 #: ../data/ui/headerbar.ui.h:8
+msgid "Menu"
+msgstr "Nabídka"
+
+#: ../data/ui/headerbar.ui.h:9
 msgid "Mark this article as starred"
 msgstr "Označit tento článek jako oblíbený"
 
-#: ../data/ui/headerbar.ui.h:9
+#: ../data/ui/headerbar.ui.h:10
 msgid "Search"
 msgstr "Hledat"
 
-#: ../data/ui/headerbar.ui.h:10
+#: ../data/ui/headerbar.ui.h:11
 msgid "Select"
 msgstr "Vybrat"
 
-#: ../data/ui/headerbar.ui.h:11
+#: ../data/ui/headerbar.ui.h:12
 msgid "Back"
 msgstr "Zpět"
 
-#: ../gnomenews/toolbar.py:96
+#: ../gnomenews/toolbar.py:103
 #, python-format
-msgid "Searching for \"%s\""
+msgid "Searching for “%s”"
 msgstr "Hledá se „%s“"
 
 #: ../gnomenews/view.py:86 ../gnomenews/view.py:99
