@@ -6,30 +6,26 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-news master\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-07 12:07+0000\n"
-"PO-Revision-Date: 2016-12-05 23:01+0300\n"
-"Last-Translator: Muhammet Kara <muhammetk@gmail.com>\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-news/issues\n"
+"POT-Creation-Date: 2019-01-22 18:20+0000\n"
+"PO-Revision-Date: 2019-01-22 23:04+0300\n"
+"Last-Translator: Serdar Sağlam <teknomobil@yandex.com>\n"
 "Language-Team: Türkçe <gnome-turk@gnome.org>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Gtranslator 2.91.7\n"
+"X-Generator: Poedit 2.2.1\n"
 
 #: ../data/gtk/menus.ui.h:1
-msgid "About"
-msgstr "Hakkında"
-
-#: ../data/gtk/menus.ui.h:2
-msgid "Quit"
-msgstr "Çıkış"
+msgid "About News"
+msgstr "Yenilikler Hakkında"
 
 #. TRANSLATORS: the application name
 #: ../data/org.gnome.News.appdata.xml.in.h:2
 #: ../data/org.gnome.News.desktop.in.h:1 ../gnomenews/application.py:37
-#: ../gnomenews/toolbar.py:100 ../gnomenews/window.py:35
+#: ../gnomenews/toolbar.py:106 ../gnomenews/window.py:35
 msgid "News"
 msgstr "Haberler"
 
@@ -92,8 +88,8 @@ msgid "No Feed Subscription Found"
 msgstr "Hiçbir Özet Akışı Aboneliği Bulunamadı"
 
 #: ../data/ui/empty-view.ui.h:6
-msgid "You can subscribe to feeds using the \"+\" button"
-msgstr "\"+\" düğmesini kullanarak özet akışlarına abone olabilirsiniz"
+msgid "You can subscribe to feeds using the “+” button"
+msgstr "“+” düğmesini kullanarak özet akışlarına abone olabilirsiniz"
 
 #: ../data/ui/headerbar.ui.h:1
 msgid "Add a new feed"
@@ -124,25 +120,29 @@ msgid "Click on items to select them"
 msgstr "Seçmek için ögelerin üzerine tıklayın"
 
 #: ../data/ui/headerbar.ui.h:8
+msgid "Menu"
+msgstr "Menü"
+
+#: ../data/ui/headerbar.ui.h:9
 msgid "Mark this article as starred"
 msgstr "Bu makaleyi yıldızlı olarak işaretleyin"
 
-#: ../data/ui/headerbar.ui.h:9
+#: ../data/ui/headerbar.ui.h:10
 msgid "Search"
 msgstr "Ara"
 
-#: ../data/ui/headerbar.ui.h:10
+#: ../data/ui/headerbar.ui.h:11
 msgid "Select"
 msgstr "Seç"
 
-#: ../data/ui/headerbar.ui.h:11
+#: ../data/ui/headerbar.ui.h:12
 msgid "Back"
 msgstr "Geri"
 
-#: ../gnomenews/toolbar.py:97
+#: ../gnomenews/toolbar.py:103
 #, python-format
-msgid "Searching for \"%s\""
-msgstr "\"%s\" aranıyor"
+msgid "Searching for “%s”"
+msgstr "“%s” aranıyor"
 
 #: ../gnomenews/view.py:86 ../gnomenews/view.py:99
 msgid "This article was already read"
@@ -163,3 +163,6 @@ msgstr "Bilinmeyen özet akışı"
 #: ../gnomenews/view.py:361
 msgid "Starred"
 msgstr "Yıldızlı"
+
+#~ msgid "Quit"
+#~ msgstr "Çıkış"
