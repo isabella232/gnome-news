@@ -1,0 +1,165 @@
+# Korean translation for gnome-news.
+# Copyright (C) 2019 gnome-news's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-news package.
+# DaeHyun Sung <sungdh86@gmail.com>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-news master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-news/issues\n"
+"POT-Creation-Date: 2019-02-19 21:26+0000\n"
+"PO-Revision-Date: 2019-02-24 22:43+0900\n"
+"Language-Team: Korean <gnome-kr@googlegroups.com>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Last-Translator: DaeHyun Sung <sungdh86+git@gmail.com>\n"
+"X-Generator: Poedit 2.2.1\n"
+
+#: ../data/gtk/menus.ui.h:1
+msgid "About News"
+msgstr "뉴스 정보"
+
+#. TRANSLATORS: the application name
+#: ../data/org.gnome.News.appdata.xml.in.h:2
+#: ../data/org.gnome.News.desktop.in.h:1 ../gnomenews/application.py:37
+#: ../gnomenews/toolbar.py:106 ../gnomenews/window.py:35
+msgid "News"
+msgstr "뉴스"
+
+#. TRANSLATORS: one-line description for the app
+#: ../data/org.gnome.News.appdata.xml.in.h:4
+msgid "Feed Reader"
+msgstr "피드 리더"
+
+#. TRANSLATORS: AppData description marketing paragraph
+#: ../data/org.gnome.News.appdata.xml.in.h:6
+msgid "GNOME News can be used to read news."
+msgstr "그놈 뉴스는 뉴스를 읽을 수 있습니다."
+
+#: ../data/org.gnome.News.desktop.in.h:2
+msgid "Feed reader for GNOME"
+msgstr "그놈용 피드 리더"
+
+#: ../data/org.gnome.News.gschema.xml.h:1
+msgid "Window size"
+msgstr "창 크기"
+
+#: ../data/org.gnome.News.gschema.xml.h:2
+msgid "Window size (width and height)."
+msgstr "창 크기(너비 및 높이)."
+
+#: ../data/org.gnome.News.gschema.xml.h:3
+msgid "Window position"
+msgstr "창 위치"
+
+#: ../data/org.gnome.News.gschema.xml.h:4
+msgid "Window position (x and y)."
+msgstr "창 위치(가로 및 세로)."
+
+#: ../data/org.gnome.News.gschema.xml.h:5
+msgid "Window maximized"
+msgstr "창 최대화"
+
+#: ../data/org.gnome.News.gschema.xml.h:6
+msgid "Window maximized state."
+msgstr "창 최대화 상태."
+
+#: ../data/ui/empty-view.ui.h:1
+msgid "No Results Found"
+msgstr "검색 결과가 없습니다"
+
+#: ../data/ui/empty-view.ui.h:2
+msgid "Try a different search"
+msgstr "다른 단어로 검색하세요"
+
+#: ../data/ui/empty-view.ui.h:3
+msgid "No Starred Articles Found"
+msgstr "별표 표시된 기사를 찾을 수 없습니다"
+
+#: ../data/ui/empty-view.ui.h:4
+msgid "You can see your starred articles after marking them"
+msgstr "별표 표시를 한 후에 표시한 기사를 볼 수 있습니다"
+
+#: ../data/ui/empty-view.ui.h:5
+msgid "No Feed Subscription Found"
+msgstr "구독하는 피드를 찾을 수 없습니다"
+
+#: ../data/ui/empty-view.ui.h:6
+msgid "You can subscribe to feeds using the “+” button"
+msgstr "피드룰 구독하려면 “+” 단추를 클릭하세요"
+
+#: ../data/ui/headerbar.ui.h:1
+msgid "Add a new feed"
+msgstr "새로운 피드 추가"
+
+#: ../data/ui/headerbar.ui.h:2
+msgid "Enter feed address to add"
+msgstr "추가할 피드 주소를 엔터"
+
+#: ../data/ui/headerbar.ui.h:3
+msgid "Add"
+msgstr "추가"
+
+#: ../data/ui/headerbar.ui.h:4
+msgid "You are already subscribed to that feed!"
+msgstr "이미 피드를 구독하고 있습니다!"
+
+#: ../data/ui/headerbar.ui.h:5
+msgid "Select All"
+msgstr "모두 선택"
+
+#: ../data/ui/headerbar.ui.h:6
+msgid "Select None"
+msgstr "선택 안함"
+
+#: ../data/ui/headerbar.ui.h:7
+msgid "Click on items to select them"
+msgstr "항목을 선택하여 클릭"
+
+#: ../data/ui/headerbar.ui.h:8
+msgid "Menu"
+msgstr "메뉴"
+
+#: ../data/ui/headerbar.ui.h:9
+msgid "Mark this article as starred"
+msgstr "별표 표시"
+
+#: ../data/ui/headerbar.ui.h:10
+msgid "Search"
+msgstr "검색"
+
+#: ../data/ui/headerbar.ui.h:11
+msgid "Select"
+msgstr "선택"
+
+#: ../data/ui/headerbar.ui.h:12
+msgid "Back"
+msgstr "뒤로"
+
+#: ../gnomenews/toolbar.py:103
+#, python-format
+msgid "Searching for “%s”"
+msgstr "“%s” 검색 중"
+
+#: ../gnomenews/view.py:86 ../gnomenews/view.py:99
+msgid "This article was already read"
+msgstr "기사를 이미 읽었습니다"
+
+#: ../gnomenews/view.py:174
+msgid "New"
+msgstr "새로운 뉴스"
+
+#: ../gnomenews/view.py:191
+msgid "Feeds"
+msgstr "피드"
+
+#: ../gnomenews/view.py:268
+msgid "Unknown feed"
+msgstr "알 수 없는 피드"
+
+#: ../gnomenews/view.py:361
+msgid "Starred"
+msgstr "별표 항목"
