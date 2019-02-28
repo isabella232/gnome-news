@@ -6,30 +6,25 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-news master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
-"news&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2016-07-14 14:19+0000\n"
-"PO-Revision-Date: 2016-07-25 04:41+0700\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-news/issues\n"
+"POT-Creation-Date: 2019-01-22 18:20+0000\n"
+"PO-Revision-Date: 2019-02-28 14:06+0700\n"
+"Last-Translator: Kukuh Syafaat <kukuhsyafaat@gnome.org>\n"
 "Language-Team: Indonesian <gnome-l10n-id@googlegroups.com>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Last-Translator: \n"
-"X-Generator: Poedit 1.8.8\n"
+"X-Generator: Poedit 2.2.1\n"
 
 #: ../data/gtk/menus.ui.h:1
-msgid "About"
-msgstr "Tentang"
-
-#: ../data/gtk/menus.ui.h:2
-msgid "Quit"
-msgstr "Keluar"
+msgid "About News"
+msgstr "Tentang Berita"
 
 #. TRANSLATORS: the application name
 #: ../data/org.gnome.News.appdata.xml.in.h:2
 #: ../data/org.gnome.News.desktop.in.h:1 ../gnomenews/application.py:37
-#: ../gnomenews/toolbar.py:99 ../gnomenews/window.py:35
+#: ../gnomenews/toolbar.py:106 ../gnomenews/window.py:35
 msgid "News"
 msgstr "Berita"
 
@@ -92,7 +87,7 @@ msgid "No Feed Subscription Found"
 msgstr "Tidak Ditemukan Langganan Asupan"
 
 #: ../data/ui/empty-view.ui.h:6
-msgid "You can subscribe to feeds using the \"+\" button"
+msgid "You can subscribe to feeds using the “+” button"
 msgstr "Anda dapat berlangganan ke asupan memakai tombol \"+\""
 
 #: ../data/ui/headerbar.ui.h:1
@@ -124,24 +119,28 @@ msgid "Click on items to select them"
 msgstr "Klik pada butir untuk memilihnya"
 
 #: ../data/ui/headerbar.ui.h:8
+msgid "Menu"
+msgstr "Menu"
+
+#: ../data/ui/headerbar.ui.h:9
 msgid "Mark this article as starred"
 msgstr "Tandai artikel ini sebagi dibintangi"
 
-#: ../data/ui/headerbar.ui.h:9
+#: ../data/ui/headerbar.ui.h:10
 msgid "Search"
 msgstr "Cari"
 
-#: ../data/ui/headerbar.ui.h:10
+#: ../data/ui/headerbar.ui.h:11
 msgid "Select"
 msgstr "Pilih"
 
-#: ../data/ui/headerbar.ui.h:11
+#: ../data/ui/headerbar.ui.h:12
 msgid "Back"
 msgstr "Kembali"
 
-#: ../gnomenews/toolbar.py:96
+#: ../gnomenews/toolbar.py:103
 #, python-format
-msgid "Searching for \"%s\""
+msgid "Searching for “%s”"
 msgstr "Mencari \"%s\""
 
 #: ../gnomenews/view.py:86 ../gnomenews/view.py:99
@@ -163,3 +162,6 @@ msgstr "Asupan tak dikenal"
 #: ../gnomenews/view.py:361
 msgid "Starred"
 msgstr "Dibintangi"
+
+#~ msgid "Quit"
+#~ msgstr "Keluar"
