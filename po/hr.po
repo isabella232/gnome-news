@@ -6,30 +6,27 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-news master\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-12 09:46+0000\n"
-"PO-Revision-Date: 2017-04-30 23:03+0200\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-news/issues\n"
+"POT-Creation-Date: 2019-01-22 18:20+0000\n"
+"PO-Revision-Date: 2019-03-26 20:17+0100\n"
+"Last-Translator: gogo <trebelnik2@gmail.com>\n"
 "Language-Team: Croatian <hr@li.org>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"Last-Translator: gogo <trebelnik2@gmail.com>\n"
-"X-Generator: Poedit 1.8.7.1\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #: ../data/gtk/menus.ui.h:1
-msgid "About"
-msgstr "O programu"
-
-#: ../data/gtk/menus.ui.h:2
-msgid "Quit"
-msgstr "Zatvori"
+msgid "About News"
+msgstr "O Novostima"
 
 #. TRANSLATORS: the application name
 #: ../data/org.gnome.News.appdata.xml.in.h:2
 #: ../data/org.gnome.News.desktop.in.h:1 ../gnomenews/application.py:37
-#: ../gnomenews/toolbar.py:100 ../gnomenews/window.py:35
+#: ../gnomenews/toolbar.py:106 ../gnomenews/window.py:35
 msgid "News"
 msgstr "Novosti"
 
@@ -85,14 +82,14 @@ msgstr "Nema pronađenih članaka označenih zvjezdicom"
 
 #: ../data/ui/empty-view.ui.h:4
 msgid "You can see your starred articles after marking them"
-msgstr "Možete vidjeti svoje članke označene zvjezdicom nakon što ih označite."
+msgstr "Možete vidjeti svoje članke označene zvjezdicom nakon što ih označite"
 
 #: ../data/ui/empty-view.ui.h:5
 msgid "No Feed Subscription Found"
-msgstr "NEma pronađenih pretplata kanala"
+msgstr "Nema pronađenih pretplata kanala"
 
 #: ../data/ui/empty-view.ui.h:6
-msgid "You can subscribe to feeds using the \"+\" button"
+msgid "You can subscribe to feeds using the “+” button"
 msgstr "Možete se pretplatiti na kanale koristeći \"+\" tipku"
 
 #: ../data/ui/headerbar.ui.h:1
@@ -124,25 +121,29 @@ msgid "Click on items to select them"
 msgstr "Kliknite na stavku za odabir"
 
 #: ../data/ui/headerbar.ui.h:8
+msgid "Menu"
+msgstr "Izbornik"
+
+#: ../data/ui/headerbar.ui.h:9
 msgid "Mark this article as starred"
 msgstr "Označi ovaj članak sa zvjezdicom"
 
-#: ../data/ui/headerbar.ui.h:9
+#: ../data/ui/headerbar.ui.h:10
 msgid "Search"
 msgstr "Pretraga"
 
-#: ../data/ui/headerbar.ui.h:10
+#: ../data/ui/headerbar.ui.h:11
 msgid "Select"
 msgstr "Odaberi"
 
-#: ../data/ui/headerbar.ui.h:11
+#: ../data/ui/headerbar.ui.h:12
 msgid "Back"
 msgstr "Natrag"
 
-#: ../gnomenews/toolbar.py:97
+#: ../gnomenews/toolbar.py:103
 #, python-format
-msgid "Searching for \"%s\""
-msgstr "Pretraživam \"%s\""
+msgid "Searching for “%s”"
+msgstr "Pretražujem \"%s\""
 
 #: ../gnomenews/view.py:86 ../gnomenews/view.py:99
 msgid "This article was already read"
@@ -163,3 +164,6 @@ msgstr "Nepoznati kanal"
 #: ../gnomenews/view.py:361
 msgid "Starred"
 msgstr "Sa zvjezdicom"
+
+#~ msgid "Quit"
+#~ msgstr "Zatvori"
