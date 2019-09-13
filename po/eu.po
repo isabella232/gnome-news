@@ -1,0 +1,162 @@
+# Basque translation for gnome-news.
+# Copyright (C) 2019 gnome-news's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-news package.
+# Asier Sarasua Garmendia <asier.sarasua@gmail.com>, 2019.
+#
+msgid ""
+msgstr "Project-Id-Version: gnome-news master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-news/issues\n"
+"POT-Creation-Date: 2019-03-26 19:18+0000\n"
+"PO-Revision-Date: 2019-09-12 10:00+0100\n"
+"Last-Translator: Asier Sarasua Garmendia <asier.sarasua@gmail.com>\n"
+"Language-Team: Basque <librezale@librezale.eus>\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../data/gtk/menus.ui.h:1
+msgid "About News"
+msgstr "Albisteak aplikazioari buruz"
+
+#. TRANSLATORS: the application name
+#: ../data/org.gnome.News.appdata.xml.in.h:2
+#: ../data/org.gnome.News.desktop.in.h:1 ../gnomenews/application.py:37
+#: ../gnomenews/toolbar.py:106 ../gnomenews/window.py:35
+msgid "News"
+msgstr "Albisteak"
+
+#. TRANSLATORS: one-line description for the app
+#: ../data/org.gnome.News.appdata.xml.in.h:4
+msgid "Feed Reader"
+msgstr "Jarioen irakurlea"
+
+#. TRANSLATORS: AppData description marketing paragraph
+#: ../data/org.gnome.News.appdata.xml.in.h:6
+msgid "GNOME News can be used to read news."
+msgstr "GNOME Albisteak albisteak irakurtzeko erabil daiteke."
+
+#: ../data/org.gnome.News.desktop.in.h:2
+msgid "Feed reader for GNOME"
+msgstr "Jarioen irakurlea GNOMErako"
+
+#: ../data/org.gnome.News.gschema.xml.h:1
+msgid "Window size"
+msgstr "Leihoaren tamaina"
+
+#: ../data/org.gnome.News.gschema.xml.h:2
+msgid "Window size (width and height)."
+msgstr "Leihoaren tamaina (zabalera eta altuera)."
+
+#: ../data/org.gnome.News.gschema.xml.h:3
+msgid "Window position"
+msgstr "Leihoaren posizioa"
+
+#: ../data/org.gnome.News.gschema.xml.h:4
+msgid "Window position (x and y)."
+msgstr "Leihoaren posizioa (x eta y)."
+
+#: ../data/org.gnome.News.gschema.xml.h:5
+msgid "Window maximized"
+msgstr "Leihoa maximizatuta"
+
+#: ../data/org.gnome.News.gschema.xml.h:6
+msgid "Window maximized state."
+msgstr "Leiho maximizatuaren egoera."
+
+#: ../data/ui/empty-view.ui.h:1
+msgid "No Results Found"
+msgstr "Ez da emaitzarik aurkitu"
+
+#: ../data/ui/empty-view.ui.h:2
+msgid "Try a different search"
+msgstr "Saiatu bestelako bilaketa"
+
+#: ../data/ui/empty-view.ui.h:3
+msgid "No Starred Articles Found"
+msgstr "Ez da izardun artikulurik aurkitu"
+
+#: ../data/ui/empty-view.ui.h:4
+msgid "You can see your starred articles after marking them"
+msgstr "Izardun artikuluak ikusteko, haiek markatu behar dituzu lehenengo"
+
+#: ../data/ui/empty-view.ui.h:5
+msgid "No Feed Subscription Found"
+msgstr "Ez da jario-harpidetzarik aurkitu"
+
+#: ../data/ui/empty-view.ui.h:6
+msgid "You can subscribe to feeds using the “+” button"
+msgstr "Jarioetera harpidetzeko, “+” botoia erabili dezakezu"
+
+#: ../data/ui/headerbar.ui.h:1
+msgid "Add a new feed"
+msgstr "Gehitu jario berria"
+
+#: ../data/ui/headerbar.ui.h:2
+msgid "Enter feed address to add"
+msgstr "Sartu gehituko den jarioaren helbidea"
+
+#: ../data/ui/headerbar.ui.h:3
+msgid "Add"
+msgstr "Gehitu"
+
+#: ../data/ui/headerbar.ui.h:4
+msgid "You are already subscribed to that feed!"
+msgstr "Dagoeneko harpidetuta zaude jario horretara!"
+
+#: ../data/ui/headerbar.ui.h:5
+msgid "Select All"
+msgstr "Hautatu dena"
+
+#: ../data/ui/headerbar.ui.h:6
+msgid "Select None"
+msgstr "Ez hautatu ezer"
+
+#: ../data/ui/headerbar.ui.h:7
+msgid "Click on items to select them"
+msgstr "Egin klik elementuen gainean hautatzeko"
+
+#: ../data/ui/headerbar.ui.h:8
+msgid "Menu"
+msgstr "Menua"
+
+#: ../data/ui/headerbar.ui.h:9
+msgid "Mark this article as starred"
+msgstr "Markatu artikulu hau izar batekin"
+
+#: ../data/ui/headerbar.ui.h:10
+msgid "Search"
+msgstr "Bilatu"
+
+#: ../data/ui/headerbar.ui.h:11
+msgid "Select"
+msgstr "Hautatu"
+
+#: ../data/ui/headerbar.ui.h:12
+msgid "Back"
+msgstr "Atzera"
+
+#: ../gnomenews/toolbar.py:103
+#, python-format
+msgid "Searching for “%s”"
+msgstr "“%s” bilatzen"
+
+#: ../gnomenews/view.py:86 ../gnomenews/view.py:99
+msgid "This article was already read"
+msgstr "Artikulu hau dagoeneko irakurri duzu"
+
+#: ../gnomenews/view.py:174
+msgid "New"
+msgstr "Berria"
+
+#: ../gnomenews/view.py:191
+msgid "Feeds"
+msgstr "Jarioak"
+
+#: ../gnomenews/view.py:268
+msgid "Unknown feed"
+msgstr "Jario ezezaguna"
+
+#: ../gnomenews/view.py:361
+msgid "Starred"
+msgstr "Izarduna"
