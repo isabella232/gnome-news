@@ -2,37 +2,34 @@
 # Copyright (C) 2016 gnome-news's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-news package.
 #
-# Translators: 
+# Translators:
 # Мирослав Николић <miroslavnikolic@rocketmail.com>, 2016.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-news master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
-"news&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2016-03-08 14:37+0000\n"
-"PO-Revision-Date: 2016-03-09 09:05+0200\n"
-"Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-news/"
+"issues\n"
+"POT-Creation-Date: 2019-01-22 18:20+0000\n"
+"PO-Revision-Date: 2019-09-16 07:52+0200\n"
+"Last-Translator: Марко М. Костић <marko.m.kostic@gmail.com>\n"
 "Language-Team: Serbian <(nothing)>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n==1? 3 : n%10==1 && n%100!=11 ? 0 : "
-"n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=n==1? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Project-Style: gnome\n"
+"X-Generator: Poedit 2.2.3\n"
 
 #: ../data/gtk/menus.ui.h:1
-msgid "About"
-msgstr "О програму"
-
-#: ../data/gtk/menus.ui.h:2
-msgid "Quit"
-msgstr "Изађи"
+msgid "About News"
+msgstr "О Новостима"
 
 #. TRANSLATORS: the application name
 #: ../data/org.gnome.News.appdata.xml.in.h:2
-#: ../data/org.gnome.News.desktop.in.h:1 ../gnomenews/application.py:36
-#: ../gnomenews/toolbar.py:99 ../gnomenews/window.py:35
+#: ../data/org.gnome.News.desktop.in.h:1 ../gnomenews/application.py:37
+#: ../gnomenews/toolbar.py:106 ../gnomenews/window.py:35
 msgid "News"
 msgstr "Вести"
 
@@ -95,7 +92,7 @@ msgid "No Feed Subscription Found"
 msgstr "Нисам нашао претплату на довод"
 
 #: ../data/ui/empty-view.ui.h:6
-msgid "You can subscribe to feeds using the \"+\" button"
+msgid "You can subscribe to feeds using the “+” button"
 msgstr "Можете да се претплатите на доводе користећи дугме +"
 
 #: ../data/ui/headerbar.ui.h:1
@@ -127,24 +124,28 @@ msgid "Click on items to select them"
 msgstr "Притисните на ставке да их изаберете"
 
 #: ../data/ui/headerbar.ui.h:8
+msgid "Menu"
+msgstr "Изборник"
+
+#: ../data/ui/headerbar.ui.h:9
 msgid "Mark this article as starred"
 msgstr "Означите овај чланак да има звездице"
 
-#: ../data/ui/headerbar.ui.h:9
+#: ../data/ui/headerbar.ui.h:10
 msgid "Search"
 msgstr "Тражи"
 
-#: ../data/ui/headerbar.ui.h:10
+#: ../data/ui/headerbar.ui.h:11
 msgid "Select"
 msgstr "Изабери"
 
-#: ../data/ui/headerbar.ui.h:11
+#: ../data/ui/headerbar.ui.h:12
 msgid "Back"
 msgstr "Назад"
 
-#: ../gnomenews/toolbar.py:96
+#: ../gnomenews/toolbar.py:103
 #, python-format
-msgid "Searching for \"%s\""
+msgid "Searching for “%s”"
 msgstr "Тражим „%s“"
 
 #: ../gnomenews/view.py:86 ../gnomenews/view.py:99
@@ -166,3 +167,6 @@ msgstr "Непознат довод"
 #: ../gnomenews/view.py:361
 msgid "Starred"
 msgstr "Започето"
+
+#~ msgid "Quit"
+#~ msgstr "Изађи"
