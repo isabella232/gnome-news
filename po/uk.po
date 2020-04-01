@@ -1,0 +1,167 @@
+# Ukrainian translation for gnome-news.
+# Copyright (C) 2020 gnome-news's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-news package.
+#
+# Yuri Chornoivan <yurchor@ukr.net>, 2020.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-news master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-news/issues\n"
+"POT-Creation-Date: 2019-09-16 05:53+0000\n"
+"PO-Revision-Date: 2020-04-01 11:32+0300\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Lokalize 20.07.70\n"
+
+#: ../data/gtk/menus.ui.h:1
+msgid "About News"
+msgstr "Про «Новини»"
+
+#. TRANSLATORS: the application name
+#: ../data/org.gnome.News.appdata.xml.in.h:2
+#: ../data/org.gnome.News.desktop.in.h:1 ../gnomenews/application.py:37
+#: ../gnomenews/toolbar.py:106 ../gnomenews/window.py:35
+msgid "News"
+msgstr "Новини"
+
+#. TRANSLATORS: one-line description for the app
+#: ../data/org.gnome.News.appdata.xml.in.h:4
+msgid "Feed Reader"
+msgstr "Програма для читання подач"
+
+#. TRANSLATORS: AppData description marketing paragraph
+#: ../data/org.gnome.News.appdata.xml.in.h:6
+msgid "GNOME News can be used to read news."
+msgstr "«Новинами» GNOME можна скористатися для читання новин."
+
+#: ../data/org.gnome.News.desktop.in.h:2
+msgid "Feed reader for GNOME"
+msgstr "Програма для читання новин у GNOME"
+
+#: ../data/org.gnome.News.gschema.xml.h:1
+msgid "Window size"
+msgstr "Розмір вікна"
+
+#: ../data/org.gnome.News.gschema.xml.h:2
+msgid "Window size (width and height)."
+msgstr "Розмір вікна (ширина і висота)."
+
+#: ../data/org.gnome.News.gschema.xml.h:3
+msgid "Window position"
+msgstr "Позиція вікна"
+
+#: ../data/org.gnome.News.gschema.xml.h:4
+msgid "Window position (x and y)."
+msgstr "Розташування вікна (x та y)."
+
+#: ../data/org.gnome.News.gschema.xml.h:5
+msgid "Window maximized"
+msgstr "Вікно розгорнуто"
+
+#: ../data/org.gnome.News.gschema.xml.h:6
+msgid "Window maximized state."
+msgstr "Стан розгорнутого вікна."
+
+#: ../data/ui/empty-view.ui.h:1
+msgid "No Results Found"
+msgstr "Нічого не знайдено"
+
+#: ../data/ui/empty-view.ui.h:2
+msgid "Try a different search"
+msgstr "Спробувати інші критерії пошуку"
+
+#: ../data/ui/empty-view.ui.h:3
+msgid "No Starred Articles Found"
+msgstr "Не знайдено позначених зіркою статей"
+
+#: ../data/ui/empty-view.ui.h:4
+msgid "You can see your starred articles after marking them"
+msgstr ""
+"Ви зможете побачити позначені зіркою статті після позначення цих статей"
+
+#: ../data/ui/empty-view.ui.h:5
+msgid "No Feed Subscription Found"
+msgstr "Не знайдено жодної підписки на подачу"
+
+#: ../data/ui/empty-view.ui.h:6
+msgid "You can subscribe to feeds using the “+” button"
+msgstr "Ви можете підписуватися на подачі за допомогою кнопки «+»"
+
+#: ../data/ui/headerbar.ui.h:1
+msgid "Add a new feed"
+msgstr "Додати нову подачу"
+
+#: ../data/ui/headerbar.ui.h:2
+msgid "Enter feed address to add"
+msgstr "Введіть адресу подачі для додавання"
+
+#: ../data/ui/headerbar.ui.h:3
+msgid "Add"
+msgstr "Додати"
+
+#: ../data/ui/headerbar.ui.h:4
+msgid "You are already subscribed to that feed!"
+msgstr "Ви вже підписалися на цю подачу!"
+
+#: ../data/ui/headerbar.ui.h:5
+msgid "Select All"
+msgstr "Вибрати все"
+
+#: ../data/ui/headerbar.ui.h:6
+msgid "Select None"
+msgstr "Зняти вибір"
+
+#: ../data/ui/headerbar.ui.h:7
+msgid "Click on items to select them"
+msgstr "Натисніть на об'єкти, щоб вибрати їх"
+
+#: ../data/ui/headerbar.ui.h:8
+msgid "Menu"
+msgstr "Меню"
+
+#: ../data/ui/headerbar.ui.h:9
+msgid "Mark this article as starred"
+msgstr "Позначити цю статтю зірочкою"
+
+#: ../data/ui/headerbar.ui.h:10
+msgid "Search"
+msgstr "Пошук"
+
+#: ../data/ui/headerbar.ui.h:11
+msgid "Select"
+msgstr "Вибрати"
+
+#: ../data/ui/headerbar.ui.h:12
+msgid "Back"
+msgstr "Назад"
+
+#: ../gnomenews/toolbar.py:103
+#, python-format
+msgid "Searching for “%s”"
+msgstr "Шукаємо «%s»"
+
+#: ../gnomenews/view.py:86 ../gnomenews/view.py:99
+msgid "This article was already read"
+msgstr "Цю статтю вже прочитано"
+
+#: ../gnomenews/view.py:174
+msgid "New"
+msgstr "Нове"
+
+#: ../gnomenews/view.py:191
+msgid "Feeds"
+msgstr "Подачі"
+
+#: ../gnomenews/view.py:268
+msgid "Unknown feed"
+msgstr "Невідома подача"
+
+#: ../gnomenews/view.py:361
+msgid "Starred"
+msgstr "Із зіркою"
