@@ -1,0 +1,104 @@
+# Chinese (China) translation for gnome-news.
+# Copyright (C) 2016 gnome-news's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-news package.
+# Dz Chen <wsxy162@gmail.com>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-news master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"news&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2016-02-19 11:44+0000\n"
+"PO-Revision-Date: 2016-02-19 23:16+0800\n"
+"Language-Team: Chinese (China) <i18n-zh@googlegroups.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Dingzhong Chen <wsxy162@gmail.com>\n"
+"X-Generator: Poedit 1.8.7\n"
+
+#: ../data/HeaderBar.ui.h:1
+msgid "Add a new feed"
+msgstr "添加新的 Feed"
+
+#: ../data/HeaderBar.ui.h:2
+msgid "Enter feed address to add"
+msgstr "输入 feed 地址以添加"
+
+#: ../data/HeaderBar.ui.h:3
+msgid "Add"
+msgstr "添加"
+
+#: ../data/HeaderBar.ui.h:4
+msgid "You are already subscribed to that feed!"
+msgstr "你已经订阅了那条 feed！qu"
+
+#: ../data/HeaderBar.ui.h:5
+msgid "Select All"
+msgstr "全选"
+
+#: ../data/HeaderBar.ui.h:6
+msgid "Select None"
+msgstr "不选"
+
+#: ../data/HeaderBar.ui.h:7
+msgid "Click on items to select them"
+msgstr "点击条目以选中它们"
+
+#: ../data/HeaderBar.ui.h:8
+msgid "Search"
+msgstr "搜索"
+
+#: ../data/HeaderBar.ui.h:9
+msgid "Select"
+msgstr "选择"
+
+#: ../data/HeaderBar.ui.h:10
+msgid "Back"
+msgstr "后退"
+
+#: ../data/Menu.ui.h:1
+msgid "About"
+msgstr "关于"
+
+#: ../data/Menu.ui.h:2
+msgid "Quit"
+msgstr "退出"
+
+#. TRANSLATORS: the application name
+#: ../data/org.gnome.News.desktop.in.h:1
+#: ../data/org.gnome.News.appdata.xml.in.h:2 ../gnomenews/application.py:36
+#: ../gnomenews/window.py:35
+msgid "News"
+msgstr "新闻"
+
+#: ../data/org.gnome.News.desktop.in.h:2
+msgid "Feed reader for GNOME"
+msgstr "GNOME Feed 阅读器"
+
+#. TRANSLATORS: one-line description for the app
+#: ../data/org.gnome.News.appdata.xml.in.h:4
+msgid "Feed Reader"
+msgstr "Feed 阅读器"
+
+#. TRANSLATORS: AppData description marketing paragraph
+#: ../data/org.gnome.News.appdata.xml.in.h:6
+msgid "GNOME News can be used to read news."
+msgstr "GNOME 新闻 可用于阅读新闻。"
+
+#: ../gnomenews/view.py:116
+msgid "Unknown feed"
+msgstr "未知 feed"
+
+#: ../gnomenews/view.py:231
+msgid "New"
+msgstr "未读"
+
+#: ../gnomenews/view.py:240
+msgid "Feeds"
+msgstr "订阅源"
+
+#: ../gnomenews/view.py:289
+msgid "Starred"
+msgstr "已加星标"
