@@ -1,0 +1,164 @@
+# Tamil translation for gnome-news.
+# Copyright (C) 2020 gnome-news's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-news package.
+# FIRST AUTHOR Shunmugachamy Veluchamy <shunmugachamyv@cdac.in>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-news master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-news/issues\n"
+"POT-Creation-Date: 2017-08-08 19:03+0000\n"
+"PO-Revision-Date: 2020-07-31 19:04+0530\n"
+"Last-Translator: Shunmugachamy Veluchamy <shunmugachamyv@cdac.in>\n"
+"Language-Team: Tamil <ta@li.org>\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+
+#: ../data/gtk/menus.ui.h:1
+msgid "About News"
+msgstr "பற்றி"
+
+#. TRANSLATORS: the application name
+#: ../data/org.gnome.News.appdata.xml.in.h:2
+#: ../data/org.gnome.News.desktop.in.h:1 ../gnomenews/application.py:37
+#: ../gnomenews/toolbar.py:106 ../gnomenews/window.py:35
+msgid "News"
+msgstr "செய்திகள்"
+
+#. TRANSLATORS: one-line description for the app
+#: ../data/org.gnome.News.appdata.xml.in.h:4
+msgid "Feed Reader"
+msgstr "ஊட்டம் படிப்பான்"
+
+#. TRANSLATORS: AppData description marketing paragraph
+#: ../data/org.gnome.News.appdata.xml.in.h:6
+msgid "GNOME News can be used to read news."
+msgstr "செய்திகளை வாசிக்க ஜினோம் செய்திகள் பயன்படுத்து."
+
+#: ../data/org.gnome.News.desktop.in.h:2
+msgid "Feed reader for GNOME"
+msgstr "ஜினோமுக்கான ஊட்டம் படிப்பான்"
+
+#: ../data/org.gnome.News.gschema.xml.h:1
+msgid "Window size"
+msgstr "சாளரத்தின் அளவு"
+
+#: ../data/org.gnome.News.gschema.xml.h:2
+msgid "Window size (width and height)."
+msgstr "சாளரத்தின் அளவு (அகலம் மற்றும் உயரம்)"
+
+#: ../data/org.gnome.News.gschema.xml.h:3
+msgid "Window position"
+msgstr "சாளரத்தின் நிலை"
+
+#: ../data/org.gnome.News.gschema.xml.h:4
+msgid "Window position (x and y)."
+msgstr "சாளரத்தின் நிலை ( x மற்றும் y) ."
+
+#: ../data/org.gnome.News.gschema.xml.h:5
+msgid "Window maximized"
+msgstr "சாளரம் பெரிதாக்கப்பட்டது"
+
+#: ../data/org.gnome.News.gschema.xml.h:6
+msgid "Window maximized state."
+msgstr "சாளரம் பெரிதாக்கப்பட்ட நிலை."
+
+#: ../data/ui/empty-view.ui.h:1
+msgid "No Results Found"
+msgstr "முடிவுகள் ஏதும் இல்லை"
+
+#: ../data/ui/empty-view.ui.h:2
+msgid "Try a different search"
+msgstr "வேறொரு தேடலை முயற்சிக்கவும்"
+
+#: ../data/ui/empty-view.ui.h:3
+msgid "No Starred Articles Found"
+msgstr "நட்சத்திரமிடப்பட்ட கட்டுரைகள் எதுவும் இல்லை"
+
+#: ../data/ui/empty-view.ui.h:4
+msgid "You can see your starred articles after marking them"
+msgstr "நீங்கள் குறியிடப்பட்ட பிறகு உங்கள் நட்சத்திரமிடப்பட்ட கட்டுரைகளைக் காணலாம்"
+
+#: ../data/ui/empty-view.ui.h:5
+msgid "No Feed Subscription Found"
+msgstr "ஊட்ட சந்தா ஏதும் இல்லை"
+
+#: ../data/ui/empty-view.ui.h:6
+msgid "You can subscribe to feeds using the “+” button"
+msgstr "\"+\" பொத்தானைப் பயன்படுத்தி ஊட்டங்களுக்கு நீங்கள் பதிவு செய்யலாம்"
+
+#: ../data/ui/headerbar.ui.h:1
+msgid "Add a new feed"
+msgstr "ஒரு புதிய ஊட்டத்தைச் சேர்"
+
+#: ../data/ui/headerbar.ui.h:2
+msgid "Enter feed address to add"
+msgstr "ஊட்ட முகவரியை சேர்க்க உள்ளீடு செய்"
+
+#: ../data/ui/headerbar.ui.h:3
+msgid "Add"
+msgstr "சேர்"
+
+#: ../data/ui/headerbar.ui.h:4
+msgid "You are already subscribed to that feed!"
+msgstr "அந்த ஊட்டத்திற்கு ஏற்கனவே நீங்கள் பதிவு செய்துள்ளீர்கள்!"
+
+#: ../data/ui/headerbar.ui.h:5
+msgid "Select All"
+msgstr "அனைத்தையும் தேர்வு செய்"
+
+#: ../data/ui/headerbar.ui.h:6
+msgid "Select None"
+msgstr "எதுவும் இல்லையென தேர்வு செய்"
+
+#: ../data/ui/headerbar.ui.h:7
+msgid "Click on items to select them"
+msgstr "உருப்படிகளைத் தேர்ந்தெடுக்க அதன் மேல் சொடுக்கவும்"
+
+#: ../data/ui/headerbar.ui.h:8
+msgid "Menu"
+msgstr ""
+
+#: ../data/ui/headerbar.ui.h:9
+msgid "Mark this article as starred"
+msgstr "இந்த கட்டுரையை நட்சத்திரமாகக் குறிக்கவும்"
+
+#: ../data/ui/headerbar.ui.h:10
+msgid "Search"
+msgstr "தேடு"
+
+#: ../data/ui/headerbar.ui.h:11
+msgid "Select"
+msgstr "தேர்ந்தெடு"
+
+#: ../data/ui/headerbar.ui.h:12
+msgid "Back"
+msgstr "திரும்பு"
+
+#: ../gnomenews/toolbar.py:103
+#, python-format
+msgid "Searching for “%s”"
+msgstr "\"%s\"-க்கான தேடல்"
+
+#: ../gnomenews/view.py:86 ../gnomenews/view.py:99
+msgid "This article was already read"
+msgstr "இந்த கட்டுரை ஏற்கனவே வாசிக்கப்பட்டது"
+
+#: ../gnomenews/view.py:174
+msgid "New"
+msgstr "புதிய"
+
+#: ../gnomenews/view.py:191
+msgid "Feeds"
+msgstr "ஊட்டங்கள்"
+
+#: ../gnomenews/view.py:268
+msgid "Unknown feed"
+msgstr "தெரியாத ஊட்டம்"
+
+#: ../gnomenews/view.py:361
+msgid "Starred"
+msgstr "நட்சத்திரமிடப்பட்டது"
